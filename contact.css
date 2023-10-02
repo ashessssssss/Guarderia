@@ -1,0 +1,103 @@
+/* Estilos para el cuerpo de la página */
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #666666;
+  text-align: left;
+  background-color: #fff;
+}
+.intro{
+  font-family:"Nunito", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  
+  }
+div{
+background-image: url(/fondo1.jpg);
+background-repeat: no-repeat;
+}
+  header .navbar a{
+    font-size: 2rem;
+    padding:0 1.5rem;
+    color:#666;
+    
+  }
+header{
+text-align: right;
+
+}
+header .navbar a:hover{
+    color:var(--blue);
+}
+
+/* Estilos para el encabezado */
+h1 {
+  text-align: center;
+  background-color: #17a2b8;;
+  color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-bottom: 5px solid #0f6674;
+}
+h2{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* Estilos para el formulario */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+/* Estilos para enlaces */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
